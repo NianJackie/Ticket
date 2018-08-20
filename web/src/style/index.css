@@ -1,0 +1,17 @@
+@import "demo.css";
+@import "ticket_center.css";
+@import "ticket_common.css";
+@import "ticket_order.css";
+@import "ticket.css";
+
+.index_list a {
+  color: white;
+}
+
+.mint-popup {
+  width: 100%;
+}
+
+.receiving_address a {
+  color: #3f3f3f;
+}

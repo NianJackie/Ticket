@@ -1,0 +1,284 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/********个人中心*********/
+.center .center_page{
+	padding: 0 10px;
+}
+.center .center_page  p.logo img{
+	display: block;
+	margin: 30px auto 50px;
+}
+.center .center_page .center_list{
+	margin-bottom: 70px;
+}
+.center .center_page .center_list li{
+	padding: 15px;
+	background: #3d4c7c;
+	margin-bottom: 5px;
+	border-radius: 4px;
+	
+}
+.center .center_page .center_list li a{
+	color: #fff;
+	font-size: 14px;
+	display: block;
+}
+.center .center_page .center_list li .fa_icon{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.center .center_page .center_list li .right_arrow{
+	background: url("../images/smallright_arrow.png") no-repeat center right;
+	background-size:8px auto ;
+}
+.center .account_list .account_content{
+	border-radius: 4px;
+	padding: 50px 0;
+	text-align: center;
+	margin: 0 auto 10px;
+	
+}
+.center .account_list .account_content .title{
+	font-weight: 600;
+	font-size: 30px;
+}
+.center .account_list .account_content.black_bg{
+	background: #293765;
+	border-left: 10px solid #101b3d;
+	color: #fff;
+}
+.center .account_list .account_content.white_bg{
+	background: #fff;
+	border-left: 10px solid #e4e4e4;
+	color: #3f3f3f;
+}
+.center .account_list .account_content p{
+	font-size: 14px;
+}
+.center .account_list .account_content.white_bg p{
+	color: #969696;
+}
+.center .account_list .account_content.red_bg{
+	background: #dd101d;
+	border-left: 10px solid #bf0b17;
+	color: #fff;
+}
+/*********账单明细********/
+.center .bill_list{
+	background: #fff;
+}
+.center .bill_list li{
+	font-size: 16px;
+	padding: 15px 20px;
+	border-bottom: 1px solid #f5f5f5;
+}
+.center .bill_list li .red_bg{
+	background: #f1543f url("../images/center/wallet_icon.png") no-repeat center center;
+    background-size:17px auto ;
+}
+.center .bill_list li .blue_bg{
+	background: #45b0e2 url("../images/center/wallet_icon.png") no-repeat center center;
+    background-size:17px auto ;
+}
+.center .bill_list li .green_bg{
+	background: #36c52b url("../images/center/wallet_icon.png") no-repeat center center;
+    background-size:17px auto ;
+}
+.center .bill_list li .orange_bg{
+	background: #f1a43f url("../images/center/wallet_icon.png") no-repeat center center;
+    background-size:17px auto ;
+}
+.center .bill_list li .violet_bg{
+	background: #9a76ed url("../images/center/wallet_icon.png") no-repeat center center;
+	background-size:17px auto ;
+}
+.center .bill_list li .lightblue_bg{
+	background: #67d2f8 url("../images/center/wallet_icon.png") no-repeat center center;
+    background-size:17px auto ;
+}
+.center .bill_list li .fa_icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 6px 7px 0 0;
+}
+.center .bill_list li i{
+	font-style: normal;
+	float: right;
+	margin-top: 6px;
+}
+.center .bill_list li p{
+	margin: 0;
+}
+.center .bill_list li em{
+	font-size: 12px;
+	color: #969696;
+	font-style: normal;
+	padding-left: 37px;
+	display: block;
+	margin-top: -3px;
+}
+.center .withdrawals_list{
+	background: #fff;
+}
+.center .withdrawals_list li{
+	border-bottom: 1px solid #f5f5f5;
+	padding: 15px 20px;
+}
+.center .withdrawals_list li span{
+	font-size: 22px;
+	color: #3f3f3f;
+	display: inline-block;
+	float: left;
+	margin: 0px 10px 0 0;
+}
+.center .withdrawals_list li i{
+	font-style: normal;
+	color: #2f77d8;
+	font-size: 12px;
+}
+.center .withdrawals_list li input{
+	width: 60%;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+	font-size: 16px;
+}
+.center .address_item{
+	background: #fff;
+	margin-top: 1px;
+	padding: 0;
+}
+.center .address_item li {
+    padding: 15px 20px;
+    color: #3f3f3f;
+    font-size: 14px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.center .address_item li .qz{
+	width: 25%;
+	font-style: normal;
+	float: left;
+	
+}
+.center .address_item li .input_box{
+	width:70%;display: inline-block;
+	margin-top: -5px;
+}
+.center .address_item li .input_box input{
+	border: none;
+	-o-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow: none;
+	padding: 0;
+	height: 20px!important;
+}
+.center .address_item li .input_box input:focus{
+	box-shadow: none;
+}
+/*********我的地址*****/
+.center .address_list{
+	margin-bottom: 10px;
+	background: #fff;
+}
+.center .address_group {
+	border-bottom: 1px solid #f5f5f5;
+	padding: 15px 20px;
+	
+}
+.center .address_group .realname_item {
+	display: flex;
+}
+.center .address_group .realname_item li{
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	-moz-flex: 1;
+	flex: 1;
+	color: #969696;
+	font-size: 12px;
+}
+.center .address_group .realname_item li a{
+	text-align: center;
+	display: inline-block;
+}
+.center .address_group .name{
+	color: #3f3f3f;
+	font-size: 16px;
+	margin-bottom: 6px;
+	
+}
+.center .address_group p{
+	color: #969696;
+	font-size: 12px;
+}
+.real_name_information .address_group p{
+	color: #3f3f3f;
+	font-size: 14px;
+}
+.real_name_information .prohibit p ,.center .prohibit .name{
+	color: #969696!important;
+}
+.center .edit_state {
+	padding: 15px 20px;
+	
+}
+.center .edit_state .state_left{
+	float:left;
+	width: 40%;
+}
+
+.center .edit_state .state_left .select ,.center .name .state_left .select  ,.center .address_list .address_group .select{
+	width: 24px;
+height: 24px;
+background: url("../images/order/select_icon.png") no-repeat center left;
+    background-size: auto auto;
+background-size: 18px auto;
+display: inline-block;
+vertical-align: middle;
+margin: -2px 2px 0px 0;
+}
+.center .edit_state .state_left .active ,.center .name .state_left .active ,.center .address_list .address_group .active{
+    background: url("../images/order/select_activeicon.png") no-repeat center left;
+    background-size: 18px auto;
+}
+.center .address_list .address_group .gray_select{
+	 background: url("../images/order/gray_select.png") no-repeat center left;
+    background-size: 18px auto;
+}
+.center .edit_state .state_right{
+	width: 60%;
+	text-align: right;
+	float: right;
+}
+.center .edit_state .state_right a{
+	display: block;
+	color: #969696;
+	width: 35%;
+	float: right;
+}
+.center .edit_state .state_right .fa_icon{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.center .edit_state .state_right .edit_icon{
+	 background: url("../images/center/edit_icon.png") no-repeat center center;
+    background-size: 16px auto;
+}
+.center .edit_state .state_right .delete_icon{
+	 background: url("../images/center/delete_icon.png") no-repeat center center;
+    background-size: 16px auto;
+}
+
+@media (min-width: 300px) and (max-width: 320px){
+.real_name_information .address_group p{
+	color: #3f3f3f;
+	font-size: 12px;
+}}

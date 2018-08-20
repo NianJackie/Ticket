@@ -1,0 +1,85 @@
+.swiper_box{
+	position: relative;
+	height: 140px;
+	margin-bottom: 20px;
+}
+.swiper_list{
+	width: 100%;
+	position: relative;
+}
+.swiper_list ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+.swiper_list li{
+	list-style: none;
+	opacity: 0;
+	transition: all 0.3s ease-out;
+}
+.swiper_box img{
+	width: 100%;
+	height: 100%;
+	border:none;
+	-o-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius:6px;
+	margin:auto;
+	display: block;
+}
+
+.swiper_list .p1{
+	top: 0;
+	transform: scale(0.90);
+	opacity:1;
+	z-index: 2;
+	position: absolute;
+	right: -20px;
+	width: 70%;
+	height: 112px;
+	overflow: hidden;
+	
+}
+.swiper_list .p2{
+	top: 0;
+	transform: scale(0.90);
+	opacity: 1;
+	z-index: 2;
+	position: absolute;
+	left: -20px;
+	width: 70%;
+	height: 112px;
+	overflow: hidden;
+	
+}
+.swiper_list .p3{
+	transform: scale(1);
+	z-index: 3;
+	position: absolute;
+	left: 50%;
+	margin-left: -35%;
+	width: 70%;
+		opacity: 1;
+		height: 112px;
+		overflow: hidden;
+		
+
+	
+}
+/*
+@media (min-width: 300px) and (max-width: 320px){
+	.swiper_list{
+	min-height: 140px;
+}
+}*/
+/*@media (min-width: 900px) and (max-width: 1920px){
+.ticket_wrap .first_selection_process{
+	padding-top: 45%;
+}
+}*/
+@media (min-width:414px) and (max-width: 1366px){
+	.swiper_box{
+	height: 160px;
+}
+}

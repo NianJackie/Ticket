@@ -1,0 +1,34 @@
+# 运行文档
+
+本机需要安装 node.js 环境，建议升级到最新的稳定版本
+
+本项目使用poi进行项目构建
+
+## 安装 poi
+
+官方网站：https://poi.js.org/#/
+
+- 安装 yarn
+
+  yarn是一个快速稳定的依赖管理工具，在以下网址，遵循指引在开发环境安装yarn。
+  
+  https://yarnpkg.com/lang/zh-hans/docs/install/#windows-tab
+
+- 安装 poi
+
+  yarn global add poi
+
+## 安装组件依赖
+
+```
+cd web
+npm install
+```
+
+## 运行项目
+
+```
+npm run dev
+```
+
+根据终端提示，在浏览器打开相应页面即可。

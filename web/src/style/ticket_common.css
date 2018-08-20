@@ -1,0 +1,943 @@
+body{font-family:"微软雅黑",Helvetica;margin:0;padding:0;}
+li,ul{list-style:none}
+ul{margin:0;padding:0}
+a:hover{text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-family:"微软雅黑"}
+a{font-family:"微软雅黑"}
+/*@font-face {
+    font-family: '兰亭黑简';
+    src: url("../fonts/lantingheijian.TTF");
+}*/
+/*********首页**********/
+.gray_background{background:#f0f0f0}
+.whitebackground{background:#fff}
+
+.margin_top_0{margin-top:0px!important}
+.margin_top_5{margin-top:5px!important}
+.margin_top_6{margin-top:6px!important}
+.margin_top_10{margin-top:10px!important}
+.margin_top_12 {margin-top: 12px !important;}
+.margin_top_15 {margin-top: 15px !important;}
+.margin_top_20{margin-top:20px!important}
+.margin_top_30{margin-top:30px!important}
+
+.margin_top_40{margin-top:40px!important}
+.margin_top_41{margin-top:41px!important}
+.margin_top_43{margin-top:43px!important}
+.margin_top_45{margin-top:45px!important}
+.margin_top_50{margin-top:50px!important}
+.margin_top_52{margin-top:52px!important}
+.margin_top_55{margin-top:55px!important}
+.margin_top_60{margin-top:60px!important}
+
+.margin_top_70{margin-top:70px!important}
+
+.margin_top_100{margin-top:100px!important}
+.margin_top_105{margin-top:105px!important}
+.margin_top_110{margin-top:110px!important}
+
+
+
+.margin_top_200{margin-top:200px!important}
+.margin_top_330{margin-top:330px}
+.margin_top_440{margin-top:440px}
+.margin_0{margin:0!important}
+.margin_right_0{margin-right:0!important}
+.margin_right_7{margin-right:7px!important}
+.margin_left_7{margin-left:7px!important}
+.margin_right_3{margin-right:3px!important}
+.margin_left_3{margin-left:3px!important}
+.margin_lr{margin:10px 0!important}
+
+.margin_right_10{margin-right:10px!important}
+
+.margin_bottom_0{margin-bottom:0px!important}
+.margin_bottom_5{margin-bottom:5px!important}
+.margin_bottom_7{margin-bottom:7px!important}
+.margin_bottom_10{margin-bottom:10px!important}
+.margin_bottom_6{margin-bottom:6px!important}
+
+.margin_bottom_40{margin-bottom:40px!important}
+.margin_bottom_60{margin-bottom:60px!important}
+.margin_bottom_70{margin-bottom:70px!important}
+.margin_bottom_20{margin-bottom:20px!important}
+.margin_bottom_120{margin-bottom:120px!important}
+.margin_bottom_140{margin-bottom:140px!important}
+.margin_lr7{margin:7px 0!important}
+
+.margin_10{margin:0 10px!important}
+.padding_left_7{padding-left:7px!important}
+.padding_right_7{padding-right:7px!important;}
+.padding_left_15{padding-left:15px!important}
+.padding_left_20{padding-left:20px!important}
+.padding_right_15{padding-right:15px!important}
+.padding_left_0{padding-left:0!important}
+.padding_lr7{padding:0 7px!important}
+.padding_right_3{padding-right:3px!important;}
+.padding_left_3{padding-left:3px!important;}
+
+
+.padding_0{padding:0!important}
+.padding_right_0{padding-right:0!important}
+.padding_10{padding:0 10px!important}
+.padding_top_10{padding-top:10px!important}
+.padding_top_20{padding-top:20px!important}
+.padding_bt_15{padding-top:15px!important;padding-bottom:15px!important}
+.padding_bt_10{padding-top:10px!important;padding-bottom:10px!important}
+.border_radius{border-radius:4px}
+
+.padding_bottom_10{padding_bottom:10px!important}
+.padding_bottom_40{padding_bottom:40px!important}
+.padding_15{padding:15px!important}
+
+
+
+/********底部悬浮菜单********/
+.bottom_menu{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #dd101d;
+	padding: 6px 0 5px;
+	z-index: 3;
+}
+.bottom_menu li{
+	float: left;
+	width: 33.33%;
+	color: #90121a;
+	font-size: 13px;
+	text-align: center;
+	
+}
+.bottom_menu li.active{
+	color: #fff;
+}
+.bottom_menu li a{
+	color: #90121a;
+}
+.bottom_menu li.active a{
+	color: #fff;
+}
+
+.bottom_menu li .fa_icon{
+	display: block;
+	vertical-align: middle;
+	width: 40px;
+	height: 25px;
+	margin: 0 auto 1px;
+}
+.bottom_menu li .bottom_menuicon01{
+	background: url("../images/menu_icon01.png") no-repeat center center;
+	background-size:26px auto ;
+	
+}
+.bottom_menu li.active .bottom_menuicon01{
+	background: url("../images/menu_icon_active01.png") no-repeat center center;
+	background-size:26px auto ;
+	
+}
+.bottom_menu li .bottom_menuicon02{
+	background: url("../images/menu_icon02.png") no-repeat center center;
+	background-size:30px auto ;
+	
+}
+.bottom_menu li.active .bottom_menuicon02{
+	background: url("../images/menu_icon_active02.png") no-repeat center center;
+	background-size:30px auto ;
+	
+}
+.bottom_menu li .bottom_menuicon03{
+	background: url("../images/menu_icon03.png") no-repeat center center;
+	background-size:24px auto ;
+	
+}
+.bottom_menu li.active .bottom_menuicon03{
+	background: url("../images/menu_icon_active03.png") no-repeat center center;
+	background-size:24px auto ;
+	
+}
+.blue_background{
+	background-image: url("../images/index_bg.jpg") ;
+	background-size:cover ;
+	background-repeat:no-repeat;
+	background-position:center;
+	width: 100%;
+	height: 100%;
+}
+.background_none{
+	background: none!important;
+}
+.white_bg{
+	background: #fff!important;
+}
+.gray_bg{
+	background: #f5f5f5;
+}
+.gray_font{
+	color: #969696!important;
+}
+.red_color{
+	color: #dd101d;
+}
+ /*********顶部导航**********/
+
+.ticket_topnav{
+	text-align: center;
+	background: #fff;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	color: #3f3f3f;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 14px;
+	height: 40px;
+	line-height: 1;
+	padding: 0 10px;
+	position: fixed;
+	text-align: center;
+	white-space: nowrap;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+.ticketdetail_topnav{
+	background: none;
+}
+
+.ticket_wrap .header_button .left_returnarrow{
+	background: url("../images/left_arrow.png") no-repeat center center;
+	width: 20px;
+	height: 30px;
+	vertical-align: middle;
+	background-size:10px auto ;
+	display:inline-block;
+}
+.ticket_wrap .ticketdetail_topnav .header_button .left_returnarrow{
+	background: url("../images/whiteleft_arrow.png") no-repeat center center;
+	background-size:10px auto ;
+}
+.ticket_wrap .affix .header_button .left_returnarrow{
+	background: url("../images/left_arrow.png") no-repeat center center;
+	background-size:10px auto ;
+}
+.ticket_wrap .header_button .return {
+	vertical-align: middle;
+}
+
+.ticket_wrap .header_button {
+	-moz-box-flex: .5;
+	-webkit-box-flex: .5;
+	-ms-flex: .5;
+	flex: .5;
+}
+.ticket_wrap .header_button a{
+	color: #3f3f3f;
+}
+.ticket_wrap .header_button .order_icon{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url("../images/center/order_icon.png") no-repeat center center;
+	background-size:13px auto ;
+	margin-top: -3px;
+}
+.ticketdetail_topnav .header_title{
+	color: #fff;
+}
+.ticket_wrap .header_title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: inherit;
+	font-weight: 400;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.text-left{
+	text-align: left;
+} 
+.affix{  background:#fff!important;
+    height: 40px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0px;
+    z-index:40!important;
+    -o-box-shadow: 1px 1px 8px #f0f0f0;
+    -moz-box-shadow: 1px 1px 8px  #f0f0f0;
+    box-shadow: 1px 1px 8px #f0f0f0;
+    }
+  .affix .header_title  {
+  	color: #3f3f3f;
+  }
+/**********悬浮按钮******/  
+.suspension_button{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	width: 60px;
+	height: 60px;
+	z-index: 9;
+	
+	
+}
+.suspension_button a{
+	display: block;
+	background: #dd101d;
+	font-size: 14px;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 45px;
+	box-shadow: 0 10px 10px #f6bec2;
+}
+/*********售票说明*********/
+.ticketing_instructions_pop{
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index:99!important;
+	}
+.ticketing_instructions_pop .ticketing_instructions{
+	background: #fff;
+	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+.ticketing_instructions_pop .ticketing_instructions .instructions_content{
+	max-height: 490px;
+	overflow-y: auto;
+	padding-top: 15px;
+} 
+
+.ticketing_instructions_pop .ticketing_instructions p{
+	color: #969696;
+	font-size: 12px;
+	padding: 0 20px;
+}
+.ticketing_instructions_pop .ticketing_instructions p.title{
+	color: #3f3f3f;
+	font-size: 16px;
+	margin-left: 10px;
+	padding: 12px 0;
+}
+.ticketing_instructions_pop .ticketing_instructions p a{
+	display: inline-block;
+	padding: 2px 4px;
+border-radius: 5px;
+border: 1px solid #dd101d;
+font-size: 14px;
+color: #dd101d;
+margin-bottom: 5px;
+	
+}
+.ticketing_instructions_pop .ticketing_instructions .close_icon .red_btn{
+	background:#dd101d ;
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	border-radius: 0;
+	font-family: "微软雅黑";
+	padding: 12px 0;
+}
+.customer_service_pop .title{
+	text-align: center;
+}
+.customer_service_pop  .ticket_price {
+	padding: 10px 20px;
+	
+}
+.customer_service_pop  .ticket_price li{
+	padding: 10px 0;
+	
+}
+.customer_service_pop .choose_city ul{
+	height: 200px;
+}
+.customer_service_pop .choose_city li{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.customer_service_pop  .ticket_price li span{
+	width: 6px;
+	height: 6px;
+	border-radius: 6px;
+	background: #dd101d;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+/******列表***********/
+
+.ticket_wrap .tab-content {
+	margin-bottom: 70px;
+}
+
+.ticket_wrap .tab-content .item {
+	background: #fff;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.ticket_list .tab-content .item{
+	margin-bottom: 1px;
+	border-radius: 0;
+	padding-left: 12px;
+}
+.ticket_wrap .tab-content .item .pic {
+	float: left;
+	height: 112px;
+	margin-right: 10px;
+	width: 80px;
+	overflow: hidden;
+	background: #f0f0f0;
+}
+.ticket_wrap .tab-content .item .cover{
+	background-image: url("../images/default.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+display: block;
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+
+.ticket_wrap .tab-content .item .info {
+	
+	height: 112px;
+	overflow: hidden;
+	position: relative;
+	padding-top: 6px;
+	z-index: 1;
+}
+
+.ticket_wrap .tab-content .item .info h2 {
+	color: #3f3f3f;
+	font-size: 16px;
+	margin: 0!important;
+	white-space: nowrap;
+	/*设置不折行*/
+	text-overflow: ellipsis;
+	/*这就是省略号喽*/
+	-o-text-overflow: ellipsis;
+	/*兼容opera*/
+	overflow: hidden;
+	/*设置超过的隐藏*/
+	display: block;
+}
+.ticket_wrap .tab-content .item .info .date{
+	color: #969696;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.ticket_list .tab-content .item .info .date ,.index .tab-content .item .info .date{
+	margin-top: 8px;
+}
+
+.ticket_wrap .tab-content .item .info .article {
+	margin-bottom: 0!important;
+	font-size: 14px;
+	color: #969696;
+	max-width: 100%;
+	height:40px;
+	line-height: 20px;
+	overflow: hidden;
+	display: block;
+	font-size: 12px;
+	white-space:nowrap;/*设置不折行*/
+text-overflow:ellipsis;/*这就是省略号喽*/ 
+-o-text-overflow:ellipsis;/*兼容opera*/
+overflow: hidden;/*设置超过的隐藏*/
+}
+.ticket_wrap .tab-content .item .info .article span{
+	color: #dd101d;
+	font-size: 22px;
+	
+}
+.my_order .tab-content .item .info .article span{
+	color: #3f3f3f;
+}
+.ticket_wrap .tab-content .item .info .article i{
+	font-style: normal;
+	margin-left: 10px;
+}
+/*********支付成功*****/
+.ticket_wrap .payment_box p img{
+	display: block;
+	margin: 68px auto;
+}
+.ticket_wrap .payment_box p{
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+.ticket_wrap .payment_box p a{
+	color: #fff;
+}
+.ticket_wrap .payment_box p.title{
+	text-align: center;
+	font-size: 24px;
+}
+.ticket_wrap .payment_box .btn_box {
+	margin: 50px 0;
+}
+.ticket_wrap .payment_box .btn_box .blue_btn{
+	background: #3d4c7c;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 30px;
+	margin-left: 15px;
+}
+.ticket_wrap .payment_box p span{
+	color: #dd101d;
+}
+/**********悬浮按钮********/
+.order_bottom ,.order .orderdetail_bottom{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	font-size: 15px;
+	z-index: 2;
+}
+.order_bottom .red_btn{
+	background: #dd101d;
+	width: 140px;
+	padding: 12px 0;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 0;
+	float: right;
+}
+.order_bottom .gray_btn{
+	background: #b4b4b4;
+}
+.realname {
+	padding-left: 0;
+}
+.realname .red_btn{
+	width: 100%;
+}
+/*****************弹出框********/
+.order_modal .modal-title{
+	font-size: 16px;
+	color: #3f3f3f;
+	text-align: center;
+}
+.order_modal .modal-title.red_color{
+	color: #dd101d;
+}
+.order_modal .modal-header{
+	border-bottom: none;
+}
+.order_modal .modal-footer{
+	background: #dd101d;
+	border-top: none;
+	padding: 5px 0;
+}
+.filter_bg{
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 100;
+}
+.order_modal .modal-dialog{
+	width: 80%;
+	height: 160px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -80px 0 0 -40%;
+}
+.order_modal .modal-body p{
+	text-align: center;
+	color: #969696;
+}
+.order_modal .modal-footer .btn ,.cancel_btn_common ,.delete_btn_common{
+	width: 100%;
+	border: none;
+	background: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.transfer_tickets_modal .modal-body p{
+	margin: 50px auto;
+	font-size: 16px;
+	color: #3f3f3f;
+}
+.transfer_tickets_modal .modal-footer{
+	padding: 0;
+}
+.transfer_tickets_modal .modal-content ,.order_modal .modal-content{
+	overflow: hidden;
+	border:none
+}
+.transfer_tickets_modal .modal-footer .btn ,.cancel_btn_common ,.delete_btn_common{
+	width: 48%;
+	background: #293765;float: left;
+	border-radius: 0;
+	padding: 15px 0;
+}
+.transfer_tickets_modal .modal-footer .red_btn ,.delete_btn_common{
+	background: #dd101d;
+	width: 50%;
+}
+.cancel_btn_common{
+	width: 50%;
+}
+.delete_btn_common:hover {
+	background: #dd101d;
+	color: #fff;
+}
+.cancel_btn_common:hover{
+	background: #293765;
+	color: #fff;
+}
+.cancelButton {
+	background: #293765 !important;
+	width: 50% !important;
+	color: #fff !important;
+	border: none;
+}
+
+.confirmButton {
+	background: #dd101d !important;
+	width: 50% !important;
+	color: #fff !important;
+	border: none;
+}
+/*********我的账户*****/
+.account_bottom_btn .btn{
+	width: 50%;
+	padding: 12px 0;
+color: #fff;
+font-size: 16px;
+border-radius: 0;
+float: left;
+font-family: "微软雅黑";
+	
+}
+.account_bottom_btn .blue_btn{
+	background: #293765;
+}
+.reminder{
+	background: #fffceb;
+	color: #fa6e3d;
+	font-size: 13px;
+	padding: 10px 20px;
+}
+.reminder a{
+	color: #fa6e3d;
+	text-decoration: underline;
+}
+.border_radius_none{
+	border-radius: 0!important;
+}
+.text-right{
+	text-align: right;
+}
+/*******提现失败提示****/
+.withdrawals_fail{
+	background: #494949;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 60px;
+	left: 50%;
+	right: 0;
+	font-size: 14px;
+	text-align: center;
+	width: 70%;
+	margin-left: -35%;
+	color: #fff;
+	padding: 20px 0;
+}
+/**********设置支付密码******/
+.ticketing_instructions_pop .set_password{
+	background: #f9f9f9;
+	padding: 20px 0;
+}
+.ticketing_instructions_pop .set_password .bt{
+	text-align: center!important;
+	position: relative;
+	padding: 0px 20px 15px;
+	border-bottom:1px solid #d1d1d1;
+	margin-bottom: 30px;
+}
+.ticketing_instructions_pop .set_password .bt i{
+	display: block;
+	font-style: normal;
+}
+.ticketing_instructions_pop .set_password .bt .close_icon{
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	width: 20px;
+	height: 20px;
+	background: url("../images/close_icon.png") no-repeat center left;
+    background-size: auto auto;
+    background-size: 15px auto;
+    display: inline-block;
+}
+.ticketing_instructions_pop .set_password .square{
+	border-radius: 4px;
+	border: 1px solid #d1d1d1;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+}
+.ticketing_instructions_pop .set_password .square input{
+	border: none;
+	border-right: 1px solid #d1d1d1;
+	width: 16.66%;
+	display: block;
+	border-radius: 0;
+	float: left;
+	text-align: center;
+}
+.ticketing_instructions_pop .set_password .square input:last-child{
+	border-right: none;
+}
+/*******搜索******/
+.search_wrap .search_top{
+	background: #fff;
+	padding: 8px 0;
+}
+.search_wrap .hot_search{
+	font-size: 14px;
+	color: #3f3f3f;
+	margin-top: 40px;
+}
+.search_wrap .search_content{
+	position: relative;
+	background: #647096;
+border-radius: 30px;
+overflow: hidden;
+padding: 4px 0;
+width: 80%;
+margin: 0 auto;
+}
+.search_wrap .search_content .btn {
+    background: #dd101d;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+    font-family: "微软雅黑";
+    height: 100%;
+    padding: 0 25px;
+}
+.search_wrap .icon_search {
+    position: absolute;
+    left: 10px;
+    top:10px;
+    background: url("../images/search_icon.png") no-repeat center center;
+	background-size:16px auto ;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.search_wrap .search_content input {
+   
+    color: #bdc5de;
+    border: none;
+    border-radius: 30px;
+    padding-left: 35px;
+    width: 100%;
+    background: #394877;
+    box-shadow: none;
+}
+
+.search_wrap .search_content .form-control::-moz-placeholder{
+	 color: #bdc5de!important;
+}
+.search_wrap .search_content .form-control::-moz-input-placeholder{
+	 color: #bdc5de!important;
+}
+.search_wrap .search_content .form-control::-webkit-input-placeholder {
+	 color: #bdc5de!important;
+}
+.search_wrap .search_content .form-control::-o-input-placeholder {
+	 color: #bdc5de!important;
+}
+.search_wrap .search_content .form-control::-moz-placeholder{
+	color: #bdc5de;
+}
+
+.search_wrap .tag li a{
+	background: #e6e6e6;
+	color: #787878;
+}
+
+.search_wrap .no_search_results{
+	color: #3f3f3f;
+	text-align: center;
+	padding: 100px 0;
+}
+
+
+.search_wrap .search_noneresult_content{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+}
+
+.search_wrap .payment_arrow{
+	position: absolute;
+	left: 5px;
+	
+}
+.search_wrap .payment_arrow span{
+	margin-top: 5px;
+}
+.search_wrap .tag li a{
+	background: #e6e6e6!important;
+	color: #787878!important;
+}
+/**********我卖的订单的售后******/
+.sellorder_realname .btn{
+	width: 50%;
+padding: 12px 0;
+color: #fff;
+font-size: 16px;
+border-radius: 0;
+float: left;
+}
+.sellorder_realname .blue_btn{
+	background: #293765;
+}
+/*********网络出错********/
+.ticket_wrap .network_error img{
+	display: block;
+	margin: 50px auto 100px;
+}
+.ticket_wrap .network_error .refresh{
+	text-align: center;
+	margin: 20px auto;
+}
+.ticket_wrap .network_error .refresh a{
+	font-size: 14px;
+	color: #969696;
+	text-align: center;
+}
+/**********卖票协议*****/
+.ticket_agreement .title{
+	font-size: 16px;
+	color: #3f3f3f;
+	margin: 20px 0 10px;
+}
+.ticket_agreement p{
+	color: #969696;
+	font-size: 12px;
+}
+.ticket_agreement .description_title {
+	font-size: 14px;
+	color: #3f3f3f;
+}
+
+.agreement_box{
+	max-height: 300px;
+	overflow-y: auto;
+}
+.ticket_agreement .description_title{
+	font-size: 14px;
+	color: #3f3f3f;
+}
+.agreement_box .description_title{
+	font-size: 14px!important;
+	color: #3f3f3f!important;
+}
+.default_prompt{
+	text-align: center;
+	font-size: 14px;
+	color: #3f3f3f;
+	padding: 100px 0;
+}
+/********加载提示********/
+.load_prompt{
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	padding: 10px 0;
+	background: #f5f5f5;
+	text-align: center;
+	z-index: 9;
+}
+.load_prompt em{
+	display: block;
+	font-style: normal;
+	text-align: center;
+	color: #969696;
+	font-size: 13px;
+}
+
+.load_prompt .end::before {
+    background-color: #c8c8c8;
+    content: "";
+    height: 0.1rem;
+    margin-left: -5.1rem;
+    margin-top: 1rem;
+    position: absolute;
+    width: 4rem;
+}
+.load_prompt .end::after {
+    background-color: #c8c8c8;
+    content: "";
+    height: 0.1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    position: absolute;
+    width: 4rem;
+}
+.load_prompt .end span{
+	color: #969696;
+	font-size: 13px;
+}
+.final_name{
+	margin: -3px 0 0 0!important;
+	white-space:nowrap;/*设置不折行*/
+text-overflow:ellipsis;/*这就是省略号喽*/ 
+-o-text-overflow:ellipsis;/*兼容opera*/
+overflow: hidden;/*设置超过的隐藏*/
+	
+}
+
+@media (min-width: 300px) and (max-width: 320px){
+	.ticketing_instructions_pop .ticketing_instructions .instructions_content{
+		max-height: 400px;
+	}
+}

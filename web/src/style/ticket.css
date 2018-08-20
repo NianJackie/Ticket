@@ -1,0 +1,327 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#f5f5f5;
+	font-family:"微软雅黑",Helvetica  , Arial, sans-serif;
+}
+ul,li{padding:0;margin:0}
+li{list-style:none}
+
+.ticket_wrap .search_box {
+    width: 86%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    margin: 10px 0 0 -43%;
+    color: #fff;
+     background: #384776;
+     border-radius: 30px;
+}
+.ticket_wrap .icon_search {
+    position: absolute;
+    left: 10px;
+    top:7px;
+    background: url("../images/search_icon.png") no-repeat center center;
+	background-size:16px auto ;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.ticket_wrap .search_box input {
+   
+    color: #bdc5de!important;
+    border: none;
+    border-radius: 30px;
+    padding-left: 35px;
+    width: 100%;
+    background: #394877;
+}
+.search_wrap .icon_search{
+	top: 12px;
+}
+.ticket_wrap .search_box .form-control::-moz-placeholder{
+	 color: #bdc5de!important;
+}
+.ticket_wrap .search_box .form-control::-webkit-input-placeholder {
+	 color: #bdc5de!important;
+}
+.ticket_wrap .search_box .form-control::-o-input-placeholder {
+	 color: #bdc5de!important;
+}
+
+
+
+.ticket_wrap .search_box input:focus{
+	box-shadow:  0 1px 1px rgba(0,0,0,0)
+}
+.ticket_wrap .logo{
+	margin: 20px 0 30px;
+}
+.ticket_wrap .logo img{
+	margin: 0 auto;
+	display: block;
+}
+.ticket_wrap .index_list ul{
+	background: #3d4c7c;
+	border-radius: 10px;
+	padding: 15px 8px;
+	margin-bottom: 15px;
+}
+.ticket_wrap .index_list li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #fff;
+}
+.ticket_wrap .index_list li .fa_icon{
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: 0 auto 10px;
+}
+.ticket_wrap .index_list li .list_icon01{
+	background: url("../images/index_icon01.png") no-repeat center center;
+	background-size:60px auto ;
+}
+.ticket_wrap .index_list li .list_icon02{
+	background: url("../images/index_icon02.png") no-repeat center center;
+	background-size:60px auto ;
+}
+.ticket_wrap .index_list li .list_icon03{
+	background: url("../images/index_icon03.png") no-repeat center center;
+	background-size:60px auto ;
+}
+.ticket_wrap .index_list li .list_icon04{
+	background: url("../images/index_icon04.png") no-repeat center center;
+	background-size:60px auto ;
+}
+.ticket_wrap .selection_process{
+	position: relative;
+	padding: 0 5px;
+	
+}
+.ticket_wrap .selection_process img{
+	display: block;
+	margin: 0 auto;
+}
+.ticket_wrap .tag{
+	margin: 10px auto;
+}
+.ticket_wrap .tag ul{
+	margin: 10px auto;
+}
+.ticket_wrap .tag li{
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+}
+.ticket_wrap .tag li a{
+	padding: 6px 0px;
+	font-size: 12px;
+	color: #fff;
+	background: #3d4c7c;
+	border-radius: 20px;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+.ticket_wrap .tag .fa_icon{
+	width: 20px;
+	height: 15px;
+	vertical-align: middle;
+	display: inline-block;
+	margin: -3px 5px 0 0;
+}
+.ticket_wrap .tag li .tag_icon01{
+	background: url("../images/tag_icon01.png") no-repeat center center;
+	background-size:20px auto ;
+}
+.ticket_wrap .tag li .tag_icon02{
+	background: url("../images/tag_icon02.png") no-repeat center center;
+	background-size:20px auto ;
+}
+.ticket_wrap .tag li .tag_icon03{
+	background: url("../images/tag_icon03.png") no-repeat center center;
+	background-size:20px auto ;
+}
+.ticket_wrap .tag li .tag_icon04{
+	background: url("../images/tag_icon04.png") no-repeat center center;
+	background-size:20px auto ;
+}
+
+
+.ticket_list .tab-content {
+	padding: 0;
+}
+.ticket_list .tab-content .sold_out{
+	background: #f0f0f0 ;
+	position: relative;
+	
+}
+.ticket_detail .tab-content .sold_out{
+	background: #f6f6f6!important;
+	
+}
+.ticket_detail .tab-content .sold_out ul{
+	position: relative;
+	z-index: 8;
+}
+.ticket_list .tab-content .sold_out .sold_out_icon{
+	background:url("../images/sold_outicon.png") no-repeat right center;
+	background-size:80px auto ;
+	position: absolute;
+	right: 12px;
+	top: 50%;
+	margin-top: -40px;
+	width: 80px;
+	height: 80px;
+	
+}
+.ticket_list .tab-content .sold_out .info .article span{
+	color: #969696;
+}
+/*********票务详情********/
+.ticket_detail .tab-content .item{
+	background: none;
+}
+.ticket_detail .tab-content .item .info h2 ,.ticket_detail .tab-content .item .info .article i{
+	color: #fff!important;
+}
+.ticket_detail .tab-content .item .info .article ,.ticket_detail .tab-content .item .info .date{
+	color: #8d9ac3!important;
+}
+.ticket_detail .tab-content .item .info .date{
+	margin-top: 5px;
+}
+.ticket_detail .tab-content .item .info .date .fa_icon ,.ticket_detail .tab-content .item .info .article .fa_icon{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.ticket_detail .tab-content .item .info .date .time_icon{
+	background: url("../images/time_icon.png") no-repeat center center;
+	background-size:16px auto ;
+	display: inline-block;
+	margin-right: 5px;
+}
+.ticket_detail .tab-content .item .info .article .address_icon{
+	background: url("../images/address_icon.png") no-repeat center center;
+	background-size:16px auto ;
+	display: inline-block;
+	margin-right: 5px;
+}
+.ticket_detail .tab-content .item .info .final_name_icon{
+	background: url("../images/final_name.png") no-repeat center center;
+	background-size:16px auto;
+	display: inline-block;
+	margin-right: 5px;
+}
+.ticket_detail .security_hints{
+	background: #fff;
+	margin: 10px 0 0;
+	padding: 15px 10px;
+}
+.ticket_detail .security_hints li{
+	float: left;
+	width: 25%;
+	color: #787878;
+	text-align: center;
+	font-size: 12px;
+}
+.ticket_detail .security_hints li .fa_icon{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	display: inline-block;
+	margin: -2px 5px 0 0;
+}
+.ticket_detail .security_hints li .security_icon01{
+	background: url("../images/detail_icon01.png") no-repeat center center;
+	background-size:23px auto ;
+}
+.ticket_detail .security_hints li .security_icon02{
+	background: url("../images/detail_icon02.png") no-repeat center center;
+	background-size:23px auto ;
+}
+.ticket_detail .security_hints li .security_icon03{
+	background: url("../images/detail_icon03.png") no-repeat center center;
+	background-size:23px auto ;
+}
+.ticket_detail .security_hints li .security_icon04{
+	background: url("../images/detail_icon04.png") no-repeat center center;
+	background-size:23px auto ;
+}
+
+.ticket_detail .detail_list .group{
+	border-radius: 4px;
+	background: #fff;
+	margin-bottom: 10px;
+	font-size: 12px;
+	padding: 10px 10px;
+}
+.ticket_detail .detail_list .group li{
+	margin-bottom: 6px;
+	font-size: 14px;
+	
+}
+.ticket_detail .detail_list .group li a{
+	display: inline-block;
+	border:1px solid #dd101d;
+	padding: 2px 4px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #dd101d;
+}
+.ticket_detail .detail_list .group .ticket_detail_tag{
+	display: inline-block;
+	border:1px solid #dd101d;
+	padding: 2px 4px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #dd101d;
+}
+.ticket_detail .detail_list .group .ticket_detail_tag a{
+	color: #dd101d;
+}
+.ticket_detail .detail_list .group .title{
+	font-size: 18px;
+	
+}
+
+.ticket_detail .detail_list .group .title a{
+	color: #3f3f3f;
+}
+.ticket_detail .detail_list .group .money{
+	color: #dd101d;
+font-size: 22px;
+text-align: right;
+margin-top: -4px;
+}
+.ticket_detail .detail_list .group .ticket_number{
+	color: #787878;
+	text-align: right;
+	
+}
+.ticket_detail .detail_list .sold_out .title ,.ticket_detail .detail_list .sold_out .ticket_number{
+	color: #969696;
+}
+.ticket_detail .detail_list {
+	background: #f0f0f0;
+	padding: 10px;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 320px){
+	.ticket_wrap .tag li a{
+	font-size: 12px;
+}
+.ticket_detail .security_hints li .fa_icon{
+	margin: -2px 2px 0 0;
+}
+}
